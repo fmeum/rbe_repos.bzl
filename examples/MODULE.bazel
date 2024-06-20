@@ -19,6 +19,17 @@ rbe_repos.http_archive(
     build_file = ":jdk.BUILD",
     bazel_deps = ["@rules_java"],
 )
-use_repo(rbe_repos, "remotejdk21_macos_aarch64")
+rbe_repos.http_archive(
+    name = "remotejdk21_linux",
+    integrity = "sha256-ynY9EwimvMdoOC8WBzOgjlkdX1lafdnlG2DSfVSCjcw=",
+    strip_prefix = "zulu21.34.19-ca-jdk21.0.3-linux_x64",
+    urls = [
+        "https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-linux_x64.tar.gz",
+        "https://mirror.bazel.build/cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-linux_x64.tar.gz",
+    ],
+    build_file = ":jdk.BUILD",
+    bazel_deps = ["@rules_java"],
+)
+use_repo(rbe_repos, "remotejdk21_linux", "remotejdk21_macos_aarch64")
 
 register_toolchains("//toolchains:all")

@@ -1,2 +1,5 @@
+common --noenable_workspace
+common --incompatible_strict_action_env
+
 common --java_runtime_version=remotejdk_21
 common --tool_java_runtime_version=remotejdk_21
