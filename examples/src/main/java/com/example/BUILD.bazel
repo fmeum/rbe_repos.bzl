@@ -1,4 +1,11 @@
 java_binary(
     name = "Main",
     srcs = ["Main.java"],
+    visibility = ["//visibility:public"],
+    deps = [":greeting"],
+)
+
+java_library(
+    name = "greeting",
+    srcs = ["Greeting.java"],
 )

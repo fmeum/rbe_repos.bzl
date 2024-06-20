@@ -1,0 +1,6 @@
+genrule(
+    name = "gen",
+    outs = ["output.txt"],
+    tools = ["//src/main/java/com/example:Main"],
+    cmd = "$(execpath //src/main/java/com/example:Main) > $@",
+)
