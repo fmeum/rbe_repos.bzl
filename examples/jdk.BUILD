@@ -1,5 +1,4 @@
-# TODO: Make this work with repo_override.
-# load("@rules_java//java:defs.bzl", "java_runtime")
+load("@rules_java//java:defs.bzl", "java_runtime")
 
 package(default_visibility = ["//visibility:public"])
 

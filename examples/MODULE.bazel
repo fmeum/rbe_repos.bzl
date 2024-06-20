@@ -16,5 +16,6 @@ remote_repos.http_archive(
         "https://mirror.bazel.build/cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-macosx_aarch64.tar.gz",
     ],
     build_file = ":jdk.BUILD",
+    bazel_deps = ["@rules_java"],
 )
 use_repo(remote_repos, "remotejdk21_macos_aarch64")

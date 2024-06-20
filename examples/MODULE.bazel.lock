@@ -109,8 +109,8 @@
     },
     "@@remote_repos.bzl~//:remote_repos.bzl%remote_repos": {
       "general": {
-        "bzlTransitiveDigest": "EBYcGeNAf2P7TvLJDbYeUlMfX/ycublHzGUp7PKnOGI=",
-        "usagesDigest": "O6uwUeOuwWlZ9EtuzhxBU3qmYtFi4ETpS9CF3g8dmME=",
+        "bzlTransitiveDigest": "JqYCn30E3P3OzdK0sb+JZzUN/Q/qxQ/Cf5ZkUVOtDaw=",
+        "usagesDigest": "WsiZI+jQlBErjREBypl1tSOkTMvnYYYcoIx2GtE4fsA=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -1220,7 +1220,10 @@
                 "zulu-21.jdk/Contents/Info.plist",
                 "zulu-21.jdk/Contents/MacOS/libjli.dylib",
                 "zulu-21.jdk/Contents/_CodeSignature/CodeResources"
-              ]
+              ],
+              "repo_mapping": {
+                "rules_java": "rules_java~"
+              }
             }
           }
         },

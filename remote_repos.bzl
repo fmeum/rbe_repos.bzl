@@ -1,5 +1,4 @@
-_BUILD_FILE_SUFFIX = """
-
+_BUILD_FILE_PREFIX = """\
 load(":_remote_repos_internal_files.bzl", "glob", REMOTE_REPOS_INTERNAL_FILES = "FILES")
 load("@remote_repos.bzl//internal:http_archive.bzl", remote_repos_internal_http_archive = "http_archive")
 
@@ -10,10 +9,12 @@ remote_repos_internal_http_archive(
     strip_components = {strip_components},
     files = REMOTE_REPOS_INTERNAL_FILES,
 )
+
 """
 
 _FILES_BZL = """\
 load("@remote_repos.bzl//internal:glob.bzl", _glob = "glob")
+
 FILES = {files}
 glob = lambda *args, **kwargs: _glob(FILES, *args, **kwargs)
 """
@@ -24,11 +25,15 @@ def _remote_http_archive_impl(ctx):
     ctx.file("_remote_repos_internal_files.bzl", _FILES_BZL.format(
         files = repr(ctx.attr.files),
     ))
-    ctx.file("BUILD.bazel", ctx.read(ctx.attr.build_file) + _BUILD_FILE_SUFFIX.format(
+    build_file_content = ctx.read(ctx.attr.build_file)
+    for apparent, canonical in ctx.attr.repo_mapping.items():
+        build_file_content = build_file_content.replace("\"@" + apparent + "\"", "\"@@" + canonical + "\"")
+        build_file_content = build_file_content.replace("\"@" + apparent + "//", "\"@@" + canonical + "//")
+    ctx.file("BUILD.bazel", _BUILD_FILE_PREFIX.format(
         urls = repr(ctx.attr.urls),
         sha256 = repr(ctx.attr.sha256),
         strip_components = repr(ctx.attr.strip_components),
-    ))
+    ) + build_file_content)
 
 _remote_http_archive = repository_rule(
     implementation = _remote_http_archive_impl,
@@ -38,6 +43,7 @@ _remote_http_archive = repository_rule(
         "strip_components": attr.int(mandatory = True),
         "build_file": attr.label(),
         "files": attr.string_list(mandatory = True),
+        "repo_mapping": attr.string_dict(mandatory = True),
     },
 )
 
@@ -76,6 +82,7 @@ def _remote_repos_impl(ctx):
                 strip_components = http_archive.strip_prefix.removesuffix("/").count("/") + 1,
                 build_file = http_archive.build_file,
                 files = files,
+                repo_mapping = {label.name: label.repo_name for label in http_archive.bazel_deps}
             )
 
     return ctx.extension_metadata(
@@ -90,6 +97,7 @@ _http_archive = tag_class(
         "integrity": attr.string(),
         "strip_prefix": attr.string(),
         "build_file": attr.label(),
+        "bazel_deps": attr.label_list(),
     },
 )
 
