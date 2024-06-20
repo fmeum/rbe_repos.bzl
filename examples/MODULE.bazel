@@ -1,0 +1,20 @@
+bazel_dep(name = "remote_repos.bzl")
+local_path_override(
+    module_name = "remote_repos.bzl",
+    path = "..",
+)
+
+bazel_dep(name = "rules_java", version = "7.6.5")
+
+remote_repos = use_extension("@remote_repos.bzl", "remote_repos", dev_dependency = True)
+remote_repos.http_archive(
+    name = "remotejdk21_macos_aarch64",
+    integrity = "sha256-T0KlYZCdcYaKcAzy76E5DhueBIY/P6deowxJZeWnAvA=",
+    strip_prefix = "zulu21.34.19-ca-jdk21.0.3-macosx_aarch64",
+    urls = [
+        "https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-macosx_aarch64.tar.gz",
+        "https://mirror.bazel.build/cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-macosx_aarch64.tar.gz",
+    ],
+    build_file = ":jdk.BUILD",
+)
+use_repo(remote_repos, "remotejdk21_macos_aarch64")
