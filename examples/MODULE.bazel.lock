@@ -5,6 +5,8 @@
     "https://bcr.bazel.build/modules/abseil-cpp/20210324.2/MODULE.bazel": "7cd0312e064fde87c8d1cd79ba06c876bd23630c83466e9500321be55c96ace2",
     "https://bcr.bazel.build/modules/abseil-cpp/20211102.0/MODULE.bazel": "70390338f7a5106231d20620712f7cccb659cd0e9d073d1991c038eb9fc57589",
     "https://bcr.bazel.build/modules/abseil-cpp/20211102.0/source.json": "7e3a9adf473e9af076ae485ed649d5641ad50ec5c11718103f34de03170d94ad",
+    "https://bcr.bazel.build/modules/ape/1.0.0-beta.11/MODULE.bazel": "39251c0aff369b378b03c07261a7b5b17ba5ca704d022d2aeff35b243239aee5",
+    "https://bcr.bazel.build/modules/ape/1.0.0-beta.11/source.json": "584928ecdebf3eca482fd69c2f8cd82b227173f7ac46267e44fb168a6628cf51",
     "https://bcr.bazel.build/modules/apple_support/1.5.0/MODULE.bazel": "50341a62efbc483e8a2a6aec30994a58749bd7b885e18dd96aa8c33031e558ef",
     "https://bcr.bazel.build/modules/apple_support/1.5.0/source.json": "eb98a7627c0bc486b57f598ad8da50f6625d974c8f723e9ea71bd39f709c9862",
     "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel": "f9382337dd5a474c3b7d334c2f83e50b6eaedc284253334cf823044a26de03e8",
@@ -12,10 +14,13 @@
     "https://bcr.bazel.build/modules/bazel_skylib/1.0.3/MODULE.bazel": "bcb0fd896384802d1ad283b4e4eb4d718eebd8cb820b0a2c3a347fb971afd9d8",
     "https://bcr.bazel.build/modules/bazel_skylib/1.2.1/MODULE.bazel": "f35baf9da0efe45fa3da1696ae906eea3d615ad41e2e3def4aeb4e8bc0ef9a7a",
     "https://bcr.bazel.build/modules/bazel_skylib/1.3.0/MODULE.bazel": "20228b92868bf5cfc41bda7afc8a8ba2a543201851de39d990ec957b513579c5",
+    "https://bcr.bazel.build/modules/bazel_skylib/1.4.2/MODULE.bazel": "3bd40978e7a1fac911d5989e6b09d8f64921865a45822d8b09e815eaa726a651",
     "https://bcr.bazel.build/modules/bazel_skylib/1.6.1/MODULE.bazel": "8fdee2dbaace6c252131c00e1de4b165dc65af02ea278476187765e1a617b917",
     "https://bcr.bazel.build/modules/bazel_skylib/1.6.1/source.json": "082ed5f9837901fada8c68c2f3ddc958bb22b6d654f71dd73f3df30d45d4b749",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
+    "https://bcr.bazel.build/modules/download_utils/1.0.0-beta.2/MODULE.bazel": "bced1551849a5d1ca00b985c0d267ab690af840f04c685f2c62f40e92f66fac0",
+    "https://bcr.bazel.build/modules/download_utils/1.0.0-beta.2/source.json": "0ab7ebbc57f39a7fe96190e01fe9773482bc4e3d465e9cd9b239bb44ad57791d",
     "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel": "3a83f095183f66345ca86aa13c58b59f9f94a2f81999c093d4eeaa2d262d12f4",
     "https://bcr.bazel.build/modules/googletest/1.11.0/source.json": "c73d9ef4268c91bd0c1cd88f1f9dfa08e814b1dbe89b5f594a9f08ba0244d206",
     "https://bcr.bazel.build/modules/platforms/0.0.10/MODULE.bazel": "8cb8efaf200bdeb2150d93e162c40f388529a25852b332cec879373771e48ed5",
@@ -54,6 +59,8 @@
     "https://bcr.bazel.build/modules/rules_python/0.4.0/MODULE.bazel": "9208ee05fd48bf09ac60ed269791cf17fb343db56c8226a720fbb1cdf467166c",
     "https://bcr.bazel.build/modules/stardoc/0.5.1/MODULE.bazel": "1a05d92974d0c122f5ccf09291442580317cdd859f07a8655f1db9a60374f9f8",
     "https://bcr.bazel.build/modules/stardoc/0.5.1/source.json": "a96f95e02123320aa015b956f29c00cb818fa891ef823d55148e1a362caacf29",
+    "https://bcr.bazel.build/modules/toolchain_utils/1.0.0-beta.9/MODULE.bazel": "9a8edfa6905229b899225489cbd6db36f073d9455c77238bd6ae6c52da5256d8",
+    "https://bcr.bazel.build/modules/toolchain_utils/1.0.0-beta.9/source.json": "acab4e9fbc06396cd57a6551a5c73682ac3ed86687adc962620ec835b87edcfe",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/source.json": "f1ef7d3f9e0e26d4b23d1c39b5f5de71f584dd7d1b4ef83d9bbba6ec7a6a6459",
     "https://bcr.bazel.build/modules/zlib/1.2.11/MODULE.bazel": "07b389abc85fdbca459b69e2ec656ae5622873af3f845e1c9d80fe179f3effa0",
@@ -2757,6 +2764,1166 @@
             "rules_python~"
           ]
         ]
+      }
+    },
+    "@@toolchain_utils~//toolchain/export:defs.bzl%toolchain_export": {
+      "general": {
+        "bzlTransitiveDigest": "n2fd+/jiAv/nvvi2WUR+VQxI3aTZGNuhuX/NuFhw5fM=",
+        "usagesDigest": "KQkExXJqYg7mjEenldbwRuQlhvRfx/nfyAfOTLArcvM=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "ape-pledge": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pledge//:pledge"
+            }
+          },
+          "ape-basenc": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~basenc//:basenc"
+            }
+          },
+          "ape-pwd": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pwd//:pwd"
+            }
+          },
+          "ape-xargs": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~xargs//:xargs"
+            }
+          },
+          "ape-md5sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~md5sum//:md5sum"
+            }
+          },
+          "ape-cut": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cut//:cut"
+            }
+          },
+          "ape-date": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~date//:date"
+            }
+          },
+          "ape-nl": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nl//:nl"
+            }
+          },
+          "ape-expand": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~expand//:expand"
+            }
+          },
+          "ape-ttyinfo": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ttyinfo//:ttyinfo"
+            }
+          },
+          "ape-verynice": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~verynice//:verynice"
+            }
+          },
+          "ape-cmp": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cmp//:cmp"
+            }
+          },
+          "ape-dirname": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~dirname//:dirname"
+            }
+          },
+          "ape-sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sum//:sum"
+            }
+          },
+          "ape-unexpand": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~unexpand//:unexpand"
+            }
+          },
+          "ape-sdiff": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sdiff//:sdiff"
+            }
+          },
+          "ape-pigz": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pigz//:pigz"
+            }
+          },
+          "ape-nano": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nano//:nano"
+            }
+          },
+          "ape-zsh": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~zsh//:zsh"
+            }
+          },
+          "ape-datasette": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~datasette//:datasette"
+            }
+          },
+          "ape-sha384sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sha384sum//:sha384sum"
+            }
+          },
+          "ape-dircolors": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~dircolors//:dircolors"
+            }
+          },
+          "ape-rsync": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~rsync//:rsync"
+            }
+          },
+          "ape-sed": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sed//:sed"
+            }
+          },
+          "ape-sha512sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sha512sum//:sha512sum"
+            }
+          },
+          "ape-nproc": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nproc//:nproc"
+            }
+          },
+          "ape-mv": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mv//:mv"
+            }
+          },
+          "ape-find": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~find//:find"
+            }
+          },
+          "ape-pinky": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pinky//:pinky"
+            }
+          },
+          "ape-mktemp": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mktemp//:mktemp"
+            }
+          },
+          "ape-bash": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~bash//:bash"
+            }
+          },
+          "ape-mkfifo": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mkfifo//:mkfifo"
+            }
+          },
+          "ape-tmux": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tmux//:tmux"
+            }
+          },
+          "ape-users": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~users//:users"
+            }
+          },
+          "ape-head": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~head//:head"
+            }
+          },
+          "ape-seq": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~seq//:seq"
+            }
+          },
+          "ape-printenv": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~printenv//:printenv"
+            }
+          },
+          "ape-lz4": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~lz4//:lz4"
+            }
+          },
+          "ape-sqlite3": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sqlite3//:sqlite3"
+            }
+          },
+          "ape-od": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~od//:od"
+            }
+          },
+          "ape-tsort": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tsort//:tsort"
+            }
+          },
+          "ape-chcon": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~chcon//:chcon"
+            }
+          },
+          "ape-shred": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~shred//:shred"
+            }
+          },
+          "ape-tidy": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tidy//:tidy"
+            }
+          },
+          "ape-wall": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~wall//:wall"
+            }
+          },
+          "ape-split": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~split//:split"
+            }
+          },
+          "ape-berry": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~berry//:berry"
+            }
+          },
+          "ape-groups": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~groups//:groups"
+            }
+          },
+          "ape-base64": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~base64//:base64"
+            }
+          },
+          "ape-grep": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~grep//:grep"
+            }
+          },
+          "ape-wc": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~wc//:wc"
+            }
+          },
+          "ape-chown": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~chown//:chown"
+            }
+          },
+          "ape-ctags": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ctags//:ctags"
+            }
+          },
+          "ape-locate": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~locate//:locate"
+            }
+          },
+          "ape-ls": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ls//:ls"
+            }
+          },
+          "ape-factor": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~factor//:factor"
+            }
+          },
+          "ape-life": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~life//:life"
+            }
+          },
+          "ape-expr": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~expr//:expr"
+            }
+          },
+          "ape-link": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~link//:link"
+            }
+          },
+          "ape-ninja": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ninja//:ninja"
+            }
+          },
+          "ape-qjs": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~qjs//:qjs"
+            }
+          },
+          "ape-df": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~df//:df"
+            }
+          },
+          "ape-ln": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ln//:ln"
+            }
+          },
+          "ape-dd": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~dd//:dd"
+            }
+          },
+          "ape-b2sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~b2sum//:b2sum"
+            }
+          },
+          "ape-tr": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tr//:tr"
+            }
+          },
+          "ape-unlink": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~unlink//:unlink"
+            }
+          },
+          "ape-diff": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~diff//:diff"
+            }
+          },
+          "ape-unbourne": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~unbourne//:unbourne"
+            }
+          },
+          "ape-dir": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~dir//:dir"
+            }
+          },
+          "ape-fmt": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~fmt//:fmt"
+            }
+          },
+          "ape-fold": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~fold//:fold"
+            }
+          },
+          "ape-make": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~make//:make"
+            }
+          },
+          "ape-mktemper": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mktemper//:mktemper"
+            }
+          },
+          "ape-cp": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cp//:cp"
+            }
+          },
+          "ape-printf": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~printf//:printf"
+            }
+          },
+          "ape-base32": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~base32//:base32"
+            }
+          },
+          "ape-chgrp": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~chgrp//:chgrp"
+            }
+          },
+          "ape-tac": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tac//:tac"
+            }
+          },
+          "ape-touch": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~touch//:touch"
+            }
+          },
+          "ape-python": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~python//:python"
+            }
+          },
+          "ape-uptime": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~uptime//:uptime"
+            }
+          },
+          "ape-clang-format": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~clang-format//:clang-format"
+            }
+          },
+          "ape-comm": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~comm//:comm"
+            }
+          },
+          "ape-tar": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tar//:tar"
+            }
+          },
+          "ape-false": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~false//:false"
+            }
+          },
+          "ape-rmdir": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~rmdir//:rmdir"
+            }
+          },
+          "ape-echo": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~echo//:echo"
+            }
+          },
+          "ape-paste": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~paste//:paste"
+            }
+          },
+          "ape-du": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~du//:du"
+            }
+          },
+          "ape-links": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~links//:links"
+            }
+          },
+          "ape-nohup": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nohup//:nohup"
+            }
+          },
+          "ape-basename": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~basename//:basename"
+            }
+          },
+          "ape-sha256sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sha256sum//:sha256sum"
+            }
+          },
+          "ape-greenbean": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~greenbean//:greenbean"
+            }
+          },
+          "ape-who": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~who//:who"
+            }
+          },
+          "ape-rm": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~rm//:rm"
+            }
+          },
+          "ape-curl": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~curl//:curl"
+            }
+          },
+          "ape-join": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~join//:join"
+            }
+          },
+          "ape-printimage": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~printimage//:printimage"
+            }
+          },
+          "ape-diff3": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~diff3//:diff3"
+            }
+          },
+          "ape-pathchk": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pathchk//:pathchk"
+            }
+          },
+          "ape-script": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~script//:script"
+            }
+          },
+          "ape-cat": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cat//:cat"
+            }
+          },
+          "ape-emacs": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~emacs//:emacs"
+            }
+          },
+          "ape-gzip": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~gzip//:gzip"
+            }
+          },
+          "ape-csplit": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~csplit//:csplit"
+            }
+          },
+          "ape-kill": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~kill//:kill"
+            }
+          },
+          "ape-emacsclient": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~emacsclient//:emacsclient"
+            }
+          },
+          "ape-nice": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nice//:nice"
+            }
+          },
+          "ape-timeout": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~timeout//:timeout"
+            }
+          },
+          "ape-chroot": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~chroot//:chroot"
+            }
+          },
+          "ape-mknod": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mknod//:mknod"
+            }
+          },
+          "ape-sha224sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sha224sum//:sha224sum"
+            }
+          },
+          "ape-yes": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~yes//:yes"
+            }
+          },
+          "ape-gmake": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~gmake//:gmake"
+            }
+          },
+          "ape-numfmt": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~numfmt//:numfmt"
+            }
+          },
+          "ape-tail": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tail//:tail"
+            }
+          },
+          "ape-bzip2": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~bzip2//:bzip2"
+            }
+          },
+          "ape-chmod": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~chmod//:chmod"
+            }
+          },
+          "ape-env": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~env//:env"
+            }
+          },
+          "ape-patch": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~patch//:patch"
+            }
+          },
+          "ape-vdir": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~vdir//:vdir"
+            }
+          },
+          "ape-realpath": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~realpath//:realpath"
+            }
+          },
+          "ape-uname": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~uname//:uname"
+            }
+          },
+          "ape-ptx": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~ptx//:ptx"
+            }
+          },
+          "ape-awk": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~awk//:awk"
+            }
+          },
+          "ape-stat": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~stat//:stat"
+            }
+          },
+          "ape-brotli": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~brotli//:brotli"
+            }
+          },
+          "ape-lua": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~lua//:lua"
+            }
+          },
+          "ape-nesemu1": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~nesemu1//:nesemu1"
+            }
+          },
+          "ape-wget": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~wget//:wget"
+            }
+          },
+          "ape-tty": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tty//:tty"
+            }
+          },
+          "ape-unzip": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~unzip//:unzip"
+            }
+          },
+          "ape-pr": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pr//:pr"
+            }
+          },
+          "ape-whoami": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~whoami//:whoami"
+            }
+          },
+          "ape-xz": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~xz//:xz"
+            }
+          },
+          "ape-uniq": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~uniq//:uniq"
+            }
+          },
+          "ape-readlink": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~readlink//:readlink"
+            }
+          },
+          "ape-zstd": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~zstd//:zstd"
+            }
+          },
+          "ape-cksum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cksum//:cksum"
+            }
+          },
+          "ape-tee": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tee//:tee"
+            }
+          },
+          "ape-sha1sum": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sha1sum//:sha1sum"
+            }
+          },
+          "ape-logname": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~logname//:logname"
+            }
+          },
+          "ape-sort": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sort//:sort"
+            }
+          },
+          "ape-tree": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~tree//:tree"
+            }
+          },
+          "ape-less": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~less//:less"
+            }
+          },
+          "ape-vim": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~vim//:vim"
+            }
+          },
+          "ape-dash": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~dash//:dash"
+            }
+          },
+          "ape-redbean": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~redbean//:redbean"
+            }
+          },
+          "ape-sync": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sync//:sync"
+            }
+          },
+          "ape-install": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~install//:install"
+            }
+          },
+          "ape-shuf": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~shuf//:shuf"
+            }
+          },
+          "ape-stty": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~stty//:stty"
+            }
+          },
+          "ape-zip": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~zip//:zip"
+            }
+          },
+          "ape-id": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~id//:id"
+            }
+          },
+          "ape-truncate": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~truncate//:truncate"
+            }
+          },
+          "ape-runcon": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~runcon//:runcon"
+            }
+          },
+          "ape-true": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~true//:true"
+            }
+          },
+          "ape-pypack1": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~pypack1//:pypack1"
+            }
+          },
+          "ape-cpuid": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~cpuid//:cpuid"
+            }
+          },
+          "ape-sleep": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~sleep//:sleep"
+            }
+          },
+          "ape-mkdir": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~mkdir//:mkdir"
+            }
+          },
+          "ape-test": {
+            "bzlFile": "@@toolchain_utils~//toolchain/export/symlink:repository.bzl",
+            "ruleClassName": "symlink",
+            "attributes": {
+              "target": "@@ape~~_repo_rules~test//:test"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": []
       }
     }
   }
