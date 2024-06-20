@@ -1,19 +1,19 @@
 _BUILD_FILE_PREFIX = """\
-load(":_remote_repos_internal_files.bzl", "glob", REMOTE_REPOS_INTERNAL_FILES = "FILES")
-load("@remote_repos.bzl//internal:http_archive.bzl", remote_repos_internal_http_archive = "http_archive")
+load(":_rbe_repos_internal_files.bzl", "glob", RBE_REPOS_INTERNAL_FILES = "FILES")
+load("@rbe_repos.bzl//internal:http_archive.bzl", rbe_repos_internal_http_archive = "http_archive")
 
-remote_repos_internal_http_archive(
-    name = "_remote_repos_internal_http_archive",
+rbe_repos_internal_http_archive(
+    name = "_rbe_repos_internal_http_archive",
     urls = {urls},
     sha256 = {sha256},
     strip_components = {strip_components},
-    files = REMOTE_REPOS_INTERNAL_FILES,
+    files = RBE_REPOS_INTERNAL_FILES,
 )
 
 """
 
 _FILES_BZL = """\
-load("@remote_repos.bzl//internal:glob.bzl", _glob = "glob")
+load("@rbe_repos.bzl//internal:glob.bzl", _glob = "glob")
 
 FILES = {files}
 glob = lambda *args, **kwargs: _glob(FILES, *args, **kwargs)
@@ -22,7 +22,7 @@ glob = lambda *args, **kwargs: _glob(FILES, *args, **kwargs)
 def _remote_http_archive_impl(ctx):
     # type: (repository_ctx) -> None
     ctx.file("REPO.bazel")
-    ctx.file("_remote_repos_internal_files.bzl", _FILES_BZL.format(
+    ctx.file("_rbe_repos_internal_files.bzl", _FILES_BZL.format(
         files = repr(ctx.attr.files),
     ))
     build_file_content = ctx.read(ctx.attr.build_file)
@@ -47,7 +47,7 @@ _remote_http_archive = repository_rule(
     },
 )
 
-def _remote_repos_impl(ctx):
+def _rbe_repos_impl(ctx):
     # type: (module_ctx) -> extension_metadata
     http_archives = {}
     for module in ctx.modules:
@@ -101,8 +101,8 @@ _http_archive = tag_class(
     },
 )
 
-remote_repos = module_extension(
-    implementation = _remote_repos_impl,
+rbe_repos = module_extension(
+    implementation = _rbe_repos_impl,
     tag_classes = {
         "http_archive": _http_archive,
     },

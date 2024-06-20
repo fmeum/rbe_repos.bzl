@@ -108,16 +108,16 @@
         "recordedRepoMappingEntries": []
       }
     },
-    "@@remote_repos.bzl~//:remote_repos.bzl%remote_repos": {
+    "@@rbe_repos.bzl~//:rbe_repos.bzl%rbe_repos": {
       "general": {
-        "bzlTransitiveDigest": "JqYCn30E3P3OzdK0sb+JZzUN/Q/qxQ/Cf5ZkUVOtDaw=",
-        "usagesDigest": "WsiZI+jQlBErjREBypl1tSOkTMvnYYYcoIx2GtE4fsA=",
+        "bzlTransitiveDigest": "5fpfb/d4BhKgsqe57wVl10reIF2rrZMS2p9hUSUFfsE=",
+        "usagesDigest": "/ypY071lGR1vHehzxmlRtAISJ0vmwgHFCEdg6dS4/ak=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
         "generatedRepoSpecs": {
           "remotejdk21_macos_aarch64": {
-            "bzlFile": "@@remote_repos.bzl~//:remote_repos.bzl",
+            "bzlFile": "@@rbe_repos.bzl~//:rbe_repos.bzl",
             "ruleClassName": "_remote_http_archive",
             "attributes": {
               "urls": [

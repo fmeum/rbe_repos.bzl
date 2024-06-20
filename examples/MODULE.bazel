@@ -1,14 +1,14 @@
-bazel_dep(name = "remote_repos.bzl")
+bazel_dep(name = "rbe_repos.bzl")
 local_path_override(
-    module_name = "remote_repos.bzl",
+    module_name = "rbe_repos.bzl",
     path = "..",
 )
 
 bazel_dep(name = "rules_java", version = "7.6.5")
 bazel_dep(name = "platforms", version = "0.0.10")
 
-remote_repos = use_extension("@remote_repos.bzl", "remote_repos", dev_dependency = True)
-remote_repos.http_archive(
+rbe_repos = use_extension("@rbe_repos.bzl", "rbe_repos", dev_dependency = True)
+rbe_repos.http_archive(
     name = "remotejdk21_macos_aarch64",
     integrity = "sha256-T0KlYZCdcYaKcAzy76E5DhueBIY/P6deowxJZeWnAvA=",
     strip_prefix = "zulu21.34.19-ca-jdk21.0.3-macosx_aarch64",
@@ -19,6 +19,6 @@ remote_repos.http_archive(
     build_file = ":jdk.BUILD",
     bazel_deps = ["@rules_java"],
 )
-use_repo(remote_repos, "remotejdk21_macos_aarch64")
+use_repo(rbe_repos, "remotejdk21_macos_aarch64")
 
 register_toolchains("//toolchains:all")

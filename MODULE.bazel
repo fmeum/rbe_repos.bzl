@@ -1,4 +1,4 @@
 module(
-    name = "remote_repos.bzl",
+    name = "rbe_repos.bzl",
     version = "0.0.0",
 )
