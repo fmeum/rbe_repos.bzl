@@ -5,6 +5,7 @@ local_path_override(
 )
 
 bazel_dep(name = "rules_java", version = "7.6.5")
+bazel_dep(name = "platforms", version = "0.0.10")
 
 remote_repos = use_extension("@remote_repos.bzl", "remote_repos", dev_dependency = True)
 remote_repos.http_archive(
@@ -19,3 +20,5 @@ remote_repos.http_archive(
     bazel_deps = ["@rules_java"],
 )
 use_repo(remote_repos, "remotejdk21_macos_aarch64")
+
+register_toolchains("//toolchains:all")

@@ -1,0 +1,4 @@
+java_binary(
+    name = "Main",
+    srcs = ["Main.java"],
+)
